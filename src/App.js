@@ -18,7 +18,7 @@ function App() {
   }
 
   const addTodo = (title,desc) => {
-    console.log("I am adding this todo ",title,desc)
+    console.log("I am adding this todo ", title,desc)
   }
 
   const [todos, setTodos] = useState([
@@ -46,7 +46,7 @@ function App() {
   
   return (
     <>
-      <Header title="My Todos List" searchBar={true} />
+      <Header title="ParaHelp" searchBar={true} />
       <AddTodo AddTodo={addTodo} />
       <Todos todos={todos} onDelete={onDelete} />
       <Footer/>
