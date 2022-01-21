@@ -1,4 +1,5 @@
 # Todo List React App
+Here you can add tasks in your to do list and can also delete them.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
